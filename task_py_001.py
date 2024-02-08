@@ -29,8 +29,6 @@ def copy_line(source_file, target_file, line_number):
             print("Строка успешно скопирована.")
     except FileNotFoundError:
         print("Ошибка: Файл не найден.")
-
-
 if __name__ == "__main__":
     source_file = input("Введите имя исходного файла: ")
     target_file = input("Введите имя целевого файла: ")
